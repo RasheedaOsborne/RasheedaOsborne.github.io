@@ -1,0 +1,228 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+/*HEADER*/
+
+header {
+	background-color: #f36d21;
+	padding: -.1em;
+	margin-bottom: -2em;
+}
+
+header h1 {
+	font-family: 'Henny Penny', cursive;
+	font-size: 2.5em;
+	padding: .5em;
+	margin: 0;
+}
+
+header .logo {
+	width: 100px;
+	position: absolute;
+    top: 1%;
+    left: 75%;
+	
+}
+
+header .logo img {
+	width: 100%;
+	 
+}
+
+@media screen and (min-width: 67.5em){
+   header h1 {
+   	   text-align: right;
+   	   padding-right: 2.5em;
+    }
+
+   header .logo {
+	width: 100px;
+	position: absolute;
+    top: 1%;
+    left: 91%;
+    }
+
+}
+
+/*NAV*/
+
+nav {
+   	background-color: #000000;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+
+}
+
+nav li {
+	display: inline-block;	
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: .5em;
+}
+
+@media screen and (min-width: 67.5em){
+
+	nav ul {
+		padding-right: 1em;
+	}
+
+
+}
+
+/*HERO*/
+
+.hero{
+ background: url(../img/jack.jpg) no-repeat;
+ background-size: cover;
+ padding: 10em;
+ margin-top: -1em;
+ margin-bottom: 3em;
+}
+
+/*DIRECTIONS*/
+
+
+
+.directions h2 {
+	font-family: 'Henny Penny', cursive;
+	padding-left: 1.4em;   
+	margin: 0;
+	color: #f36d21;
+	
+}
+
+.directions h3 {
+	padding-left: 1.6em;
+	/*padding-bottom: -2em;*/
+	margin-top: -.5em;
+	color: #7028ba;
+	
+}
+
+
+.directions p {
+	padding-left: 1em;
+	padding-top: -3em;
+	padding-bottom: 3em;
+	margin: 1em;
+}
+
+
+.directions img {
+	display: block;
+	height: auto;
+	width: 100%;
+	padding: 2em;
+	margin-top: -1em;
+}
+
+.directions ul img {
+	text-align: center;
+	padding: 1em;
+
+	
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+@media screen and (min-width: 67.5em){
+  .directions h2 {
+  	padding-left: 3em;
+  }
+
+  .directions img {
+	display: block;
+	height: auto;
+	width: 100%;
+
+}
+
+.directions ul {
+	margin: 0;
+	padding: 0;
+}
+
+.directions ul img{
+	width: 31.3333%;
+	margin-right: 2%;
+	float: left;
+	padding: 0;
+	margin-bottom: 1em;
+
+}
+
+.directions h3 {
+	margin-top: 2em;
+}
+
+ .wrapper {
+  	max-width: 960px;
+}
+
+
+}	
+    
+
+/*FOOTER*/
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 2em;
+}
+
+
+footer .copyright {
+	color: #ffffff;
+	text-align: center;
+	
+
+}
+
+footer nav ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+
+}
+
+footer nav li {
+	display: inline-block;
+
+}
+
+footer nav a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: .2em;
+	
+}
+
+@media screen and (min-width: 67.5em){
+	footer .copyright {
+		text-align: right;
+	}
+
+}
+
+
+
+
+
+
+
