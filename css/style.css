@@ -311,6 +311,50 @@ footer .copyright {
 	color: #fff;
 }
 
+/*PLAYINGNOW*/
+
+.movies h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
+}
+
+.movieposterthree img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+.movieposterthree h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+
+.movieposterthree p {
+	padding-left: 1em;
+}
+
+.movieposterfour img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+.movieposterfour h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+
+.movieposterfour p {
+	padding-left: 1em;
+}
+
+
+
 /*COMINGSOON*/
 
 
@@ -345,6 +389,9 @@ footer .copyright {
 	width: 100%;
 	padding: 1em;
 }
+
+
+
 
 
 
