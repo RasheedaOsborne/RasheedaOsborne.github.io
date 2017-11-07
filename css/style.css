@@ -1,224 +1,356 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+
+
+}
+
 * {
+	/*font-family: Helvetica, sans-serif;*/
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'Open Sans', sans-serif;
-	margin: 0;
-}
-/*HEADER*/
 
-header {
-	background-color: #f36d21;
-	padding: -.1em;
-	margin-bottom: -2em;
-}
-
-header h1 {
-	font-family: 'Henny Penny', cursive;
-	font-size: 2.5em;
-	padding: .5em;
-	margin: 0;
-}
-
-header .logo {
-	width: 100px;
-	position: absolute;
-    top: 1%;
-    left: 75%;
-	
-}
-
-header .logo img {
+.navButton {
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
-	 
+	z-index: 1001;
+	padding: .5em;
+	background-color: #ca597c;
+	border-width: 0 0 1px;
 }
 
-@media screen and (min-width: 67.5em){
-   header h1 {
-   	   text-align: right;
-   	   padding-right: 2.5em;
-    }
-
-   header .logo {
-	width: 100px;
-	position: absolute;
-    top: 1%;
-    left: 91%;
-    }
-
+.navButton a {
+	color: #eee;
+	text-decoration: none;
+	padding: 0 0 0 .5em;
 }
 
-/*NAV*/
+i {
+ 	font-size: 1em;
+ 	color: #eee;
+ 	padding: 0 1em 0 0;
+ 	transition: color .5s;
+ }
+
+i:hover {
+ 	color: #333;
+ }
+
+ #nav {
+ 	position: fixed;
+ 	top: 2em;
+ 	left: -72%;
+ 	width: 72%;
+ 	margin: 0;
+ 	height: 100%;
+ 	background-color: #333;
+ 	background-color: rgba(0,0,0,.84);
+ 	transition: left .5s;
+}
+
+#nav:target {
+	left: 0;
+}
 
 nav {
-   	background-color: #000000;
+	z-index: 1000;
 }
 
 nav ul {
-	list-style-type: none;
-	text-align: right;
-
+	margin: 0;
+	padding: 0;
+	margin-top: .5em;
 }
-
 nav li {
-	display: inline-block;	
+	list-style: none;
+	margin: 0;
+	padding: 0;	
 }
 
-nav a {
+nav li a {
+	color: #eee;
 	text-decoration: none;
-	color: #ffffff;
-	padding: .5em;
+	display: block;
+	padding: .5em 1em;
+	transition: all .5s;
 }
 
-@media screen and (min-width: 67.5em){
+nav li a:hover {
+	color: #eee;
+	text-decoration: none;
+	background-color: #eee;
+	color: #333;
+}
+
+/* produces a blank line in mobile nav, but is
+hidden when on wider screens. */
+.hiddenLink {
+	display: block;
+}
+
+
+/********************************************/
+/* MEDIA QUERIES */
+/********************************************/
+
+@media only screen and (min-width: 30em) {
+	.navButton {
+		display: none;
+	}
+
+	#nav {
+	 	margin: 0;
+	 	width: 100%;
+	 	height: auto;
+	 	background-color: #333;
+	 	/*CHANGES THE BACKGROUND NAV IN DESKTOP*/
+	 	background-color: rgba(225, 176, 112, 1);
+	 	position: static;
+	}
+
+	nav {
+		margin: 0;
+	}
 
 	nav ul {
-		padding-right: 1em;
+		text-align: center;
+		margin: 0;
 	}
 
+	nav li {
+		display: inline;
+	}
 
-}
+	nav li a {
+		display: inline-block;
+		padding: .5em 1em;
+		color: #fff;
+	}
 
-/*HERO*/
-
-.hero{
- background: url(../img/jack.jpg) no-repeat;
- background-size: cover;
- padding: 10em;
- margin-top: -1em;
- margin-bottom: 3em;
-}
-
-/*DIRECTIONS*/
-
-
-
-.directions h2 {
-	font-family: 'Henny Penny', cursive;
-	padding-left: 1.4em;   
-	margin: 0;
-	color: #f36d21;
-	
-}
-
-.directions h3 {
-	padding-left: 1.6em;
-	/*padding-bottom: -2em;*/
-	margin-top: -.5em;
-	color: #7028ba;
-	
+	.hiddenLink {
+		display: none;
+	}
 }
 
 
-.directions p {
-	padding-left: 1em;
-	padding-top: -3em;
-	padding-bottom: 3em;
-	margin: 1em;
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+
+/*HOMEPAGE*/
+
+
+/*HEADER*/
+header{
+    background-color: #ca597c;
 }
 
 
-.directions img {
-	display: block;
-	height: auto;
-	width: 100%;
-	padding: 2em;
-	margin-top: -1em;
-}
-
-.directions ul img {
-	text-align: center;
-	padding: 1em;
-
-	
-}
-
-.wrapper {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-
-@media screen and (min-width: 67.5em){
-  .directions h2 {
-  	padding-left: 3em;
-  }
-
-  .directions img {
-	display: block;
-	height: auto;
-	width: 100%;
-
-}
-
-.directions ul {
-	margin: 0;
-	padding: 0;
-}
-
-.directions ul img{
-	width: 31.3333%;
-	margin-right: 2%;
-	float: left;
-	padding: 0;
-	margin-bottom: 1em;
-
-}
-
-.directions h3 {
-	margin-top: 2em;
-}
-
- .wrapper {
-  	max-width: 960px;
-}
-
-
-}	
+@media only screen and (min-width: 30em) {
+   
+     header .logo {
+	   width: 300px;
+	   
+    }
     
+	header .logo img {
+		width: 100%;
+	}
+}
 
-/*FOOTER*/
+
+@media screen and (min-width: 64em) {
+	
+
+	header .logo {
+	   width: 300px;
+	   /*position: absolute;*/
+	   left: 50%;
+	   
+  }
+	header .logo img {
+		width: 100%;
+
+	}
+
+}
+
+/*NOW PLAYING*/
+.playingtoday h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
+}
+
+/*.line-separator{
+
+     height:1px;
+     background:#ffffff;
+     border-bottom:.1em solid #e1b070;
+     margin: 0;
+
+}
+*/
+
+
+.movieposterone img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+.movieposterone h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+
+.movieposterone p {
+	padding-left: 1em;
+}
+
+.button, .buttonExpand {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 2em auto;
+	padding: 1em;	
+	width: 135px;
+	background-color: #eee;
+	color: #ca597c;
+	border: 1px solid #ca597c;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+.button:hover {
+	background-color: #444;
+	color: #ca597c;
+}
+
+.moviepostertwo img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+.moviepostertwo h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+
+.moviepostertwo p {
+	padding-left: 1em;
+}
+
+.comingsoon h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
+}
+
+.thenightmare h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+
+.thenightmare img{
+    height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+
+.coraline h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+
+.coraline img{
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+
+
+.location h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     /*font-family: 'Cookie', cursive*/;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 1.5em;
+     margin: 0;
+}
+
+
+iframe {
+	width: 100%;
+	/*height: auto;*/
+
+}
 
 footer {
-	background-color: #000000;
+	background-color: #ca597c;
 	text-align: center;
-	padding: 2em;
+	padding: 2.5em;
 }
-
 
 footer .copyright {
-	color: #ffffff;
-	text-align: center;
-	
-
+	color: #fff;
 }
 
-footer nav ul {
-	list-style-type: none;
-	text-align: center;
-	padding: 0;
+/*COMINGSOON*/
 
+
+.headline h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
 }
 
-footer nav li {
-	display: inline-block;
-
+.nausicaaofthevalley h3 {
+	padding-left: .8em;
+	margin: 0;
 }
 
-footer nav a {
-	text-decoration: none;
-	color: #ffffff;
-	padding: .2em;
-	
+.nausicaaofthevalley img{
+    height: auto;
+	width: 100%;
+	padding: 1em;
 }
 
-@media screen and (min-width: 67.5em){
-	footer .copyright {
-		text-align: right;
-	}
-
+.mulan h3 {
+	padding-left: .8em;
+	margin: 0;
 }
+
+.mulan img{
+    height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+
+
+
+
+
 
 
 
