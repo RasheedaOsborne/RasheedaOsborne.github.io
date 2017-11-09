@@ -139,8 +139,6 @@ hidden when on wider screens. */
 @media screen and (min-width: 64em) {}
 
 
-/*HOMEPAGE*/
-
 
 /*HEADER*/
 header{
@@ -213,7 +211,7 @@ header{
 	color: #ca597c;
 }
 
-/*HOMEPAGE*/
+/*HOME PAGE*/
 
 .playingtoday h2 {
      padding-top: 1em;
@@ -257,7 +255,7 @@ iframe {
 
 
 
-/*PLAYINGNOW*/
+/*PLAYING NOW PAGE*/
 .movies h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -375,7 +373,7 @@ iframe {
 
 
 
-/*COMINGSOON*/
+/*COMING SOON PAGE*/
 .headline h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -438,7 +436,7 @@ iframe {
 	padding: 1em;
 }
 
-/*PRICES*/
+/*PRICES PAGE*/
 .prices h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -467,21 +465,15 @@ footer .copyright {
 footer .social-links {
 	list-style-type: none;
 	text-align: center;
-
-
 }
 
 footer .social-links li{
 	 display: inline-block;
-
-
 }
 
 
 footer .social-links li a{
       text-decoration: none;
-
-
 }	
 
 
