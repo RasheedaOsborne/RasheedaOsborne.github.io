@@ -223,6 +223,7 @@ header{
      color: #e1b070;
      font-size: 2em;
      margin: 0;
+     font-weight: 200;
 }
 
 
@@ -234,6 +235,7 @@ header{
      color: #e1b070;
      font-size: 2em;
      margin: 0;
+     font-weight: 200;
 }
 
 
@@ -264,6 +266,7 @@ iframe {
      color: #e1b070;
      font-size: 2em;
      margin: 0;
+     font-weight: 200;
 }
 
 
@@ -352,7 +355,20 @@ iframe {
 }
 
 
-
+/*MOVIE POSTER SIX*/
+.moviepostersix img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+.moviepostersix h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.moviepostersix p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
 
 
 
@@ -368,6 +384,7 @@ iframe {
      color: #e1b070;
      font-size: 2em;
      margin: 0;
+     font-weight: 200;
 }
 
 
@@ -421,7 +438,17 @@ iframe {
 	padding: 1em;
 }
 
-
+/*PRICES*/
+.prices h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
+     font-weight: 200;
+}
 
 
 
@@ -446,7 +473,7 @@ footer .social-links {
 
 footer .social-links li{
 	 display: inline-block;
-	 
+
 
 }
 
