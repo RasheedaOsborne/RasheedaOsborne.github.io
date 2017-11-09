@@ -105,7 +105,7 @@ hidden when on wider screens. */
 	 	width: 100%;
 	 	height: auto;
 	 	background-color: #333;
-	 	/*CHANGES THE BACKGROUND NAV IN DESKTOP*/
+	 	/*CHANGES THE BACKGROUND COLOR OF NAV IN DESKTOP*/
 	 	background-color: rgba(225, 176, 112, 1);
 	 	position: static;
 	}
@@ -224,6 +224,7 @@ header{
      font-size: 2em;
      margin: 0;
 }
+
 
 .comingsoon h2 {
      padding-top: 1em;
@@ -436,6 +437,25 @@ footer .copyright {
 }
 
 
+footer .social-links {
+	list-style-type: none;
+	text-align: center;
+
+
+}
+
+footer .social-links li{
+	 display: inline-block;
+	 
+
+}
+
+
+footer .social-links li a{
+      text-decoration: none;
+
+
+}	
 
 
 
