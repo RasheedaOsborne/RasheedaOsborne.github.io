@@ -455,6 +455,7 @@ footer {
 	background-color: #ca597c;
 	text-align: center;
 	padding: 2.5em;
+	margin: 0;
 }
 
 footer .copyright {
@@ -465,6 +466,7 @@ footer .copyright {
 footer .social-links {
 	list-style-type: none;
 	text-align: center;
+	margin: 1em;
 }
 
 footer .social-links li{
