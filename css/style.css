@@ -462,6 +462,20 @@ iframe {
 }
 
 
+.giftcards h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
+     font-weight: 200;
+}
+
+
+
+
 
 /*FOOTER*/
 footer {
