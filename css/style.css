@@ -449,6 +449,19 @@ iframe {
 }
 
 
+.tickets {
+	 width: 300px;
+	 padding-left: 4em;
+	 margin: 1em;
+	 /*position: absolute;
+     bottom:25%;
+     left: 25%;*/  
+}
+.tickets img {
+		width: 100%;
+}
+
+
 
 /*FOOTER*/
 footer {
