@@ -177,16 +177,8 @@ header{
 
 }
 
-/*NOW PLAYING*/
-.playingtoday h2 {
-     padding-top: 1em;
-     padding-bottom: 1em;
-     font-family: 'Cookie', cursive;
-     padding-left: .5em;
-     color: #e1b070;
-     font-size: 2em;
-     margin: 0;
-}
+
+
 
 /*.line-separator{
 
@@ -199,21 +191,8 @@ header{
 */
 
 
-.movieposterone img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
 
-.movieposterone h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-
-.movieposterone p {
-	padding-left: 1em;
-}
-
+/*BUTTON DECORATION*/
 .button, .buttonExpand {
 	text-align: center;
 	text-decoration: none;
@@ -234,19 +213,16 @@ header{
 	color: #ca597c;
 }
 
-.moviepostertwo img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
+/*HOMEPAGE*/
 
-.moviepostertwo h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-
-.moviepostertwo p {
-	padding-left: 1em;
+.playingtoday h2 {
+     padding-top: 1em;
+     padding-bottom: 1em;
+     font-family: 'Cookie', cursive;
+     padding-left: .5em;
+     color: #e1b070;
+     font-size: 2em;
+     margin: 0;
 }
 
 .comingsoon h2 {
@@ -258,30 +234,6 @@ header{
      font-size: 2em;
      margin: 0;
 }
-
-.thenightmare h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-
-.thenightmare img{
-    height: auto;
-	width: 100%;
-	padding: 1em;
-}
-
-
-.coraline h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-
-.coraline img{
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
-
 
 
 .location h2 {
@@ -298,21 +250,11 @@ header{
 iframe {
 	width: 100%;
 	/*height: auto;*/
-
 }
 
-footer {
-	background-color: #ca597c;
-	text-align: center;
-	padding: 2.5em;
-}
 
-footer .copyright {
-	color: #fff;
-}
 
 /*PLAYINGNOW*/
-
 .movies h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -323,41 +265,100 @@ footer .copyright {
      margin: 0;
 }
 
+
+
+/*MOVIE POSTER ONE*/
+.movieposterone img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+.movieposterone h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.movieposterone p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
+/*MOVIE POSTER TWO*/
+.moviepostertwo img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+.moviepostertwo h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.moviepostertwo p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
+/*MOVIE POSTER THREE*/
 .movieposterthree img {
 	height: auto;
 	width: 100%;
 	padding: 1em;
 }
-
 .movieposterthree h3 {
 	padding-left: .8em;
 	margin: 0;
 }
-
 .movieposterthree p {
 	padding-left: 1em;
+	padding-right: 1em;
 }
 
+
+
+/*MOVIE POSTER FOUR*/
 .movieposterfour img {
 	height: auto;
 	width: 100%;
 	padding: 1em;
 }
-
 .movieposterfour h3 {
 	padding-left: .8em;
 	margin: 0;
 }
-
 .movieposterfour p {
 	padding-left: 1em;
+	padding-right: 1em;
 }
 
 
 
+/*MOVIE POSTER FIVE*/
+.movieposterfive img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+.movieposterfive h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.movieposterfive p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
+
+
+
+
+
+
 /*COMINGSOON*/
-
-
 .headline h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -368,22 +369,51 @@ footer .copyright {
      margin: 0;
 }
 
+
+/*NIGHTMARE BEFORE CHRISTMAS*/
+.thenightmare h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.thenightmare img{
+    height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+
+
+/*CORALINE*/
+.coraline h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.coraline img{
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+
+
+
+/*NAUSICAAOFTHEVALLEY*/
 .nausicaaofthevalley h3 {
 	padding-left: .8em;
 	margin: 0;
 }
-
 .nausicaaofthevalley img{
     height: auto;
 	width: 100%;
 	padding: 1em;
 }
 
+
+
+/*MULAN*/
 .mulan h3 {
 	padding-left: .8em;
 	margin: 0;
 }
-
 .mulan img{
     height: auto;
 	width: 100%;
@@ -392,6 +422,18 @@ footer .copyright {
 
 
 
+
+
+/*FOOTER*/
+footer {
+	background-color: #ca597c;
+	text-align: center;
+	padding: 2.5em;
+}
+
+footer .copyright {
+	color: #fff;
+}
 
 
 
