@@ -101,6 +101,7 @@ hidden when on wider screens. */
 	}
 
 	#nav {
+		
 	 	margin: 0;
 	 	width: 100%;
 	 	height: auto;
@@ -164,30 +165,13 @@ header{
 
 	header .logo {
 	   width: 300px;
-	   /*position: absolute;*/
-	   left: 50%;
-	   
-  }
+	   left: 50%;	   
+}
 	header .logo img {
 		width: 100%;
-
-	}
-
 }
 
-
-
-
-/*.line-separator{
-
-     height:1px;
-     background:#ffffff;
-     border-bottom:.1em solid #e1b070;
-     margin: 0;
-
 }
-*/
-
 
 
 /*BUTTON DECORATION*/
@@ -211,6 +195,8 @@ header{
 	color: #ca597c;
 }
 
+
+
 /*HOME PAGE*/
 
 .playingtoday h2 {
@@ -225,6 +211,23 @@ header{
 }
 
 
+/*MOVIE POSTER ONE*/
+.movieposters img {
+	height: auto;
+	width: 100%;
+	padding: 1em;
+}
+.movieposters h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.movieposters p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
 .comingsoon h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -236,7 +239,65 @@ header{
      font-weight: 200;
 }
 
+.comingsoonmovie h3 {
+	padding-left: .8em;
+	margin: 0;
+}
+.comingsoonmovie img{
+    height: auto;
+	width: 100%;
+	padding: 1em;
+}
 
+@media screen and (min-width: 30em) {
+
+
+   .movieposters {
+     width: 48%;
+     float: left;
+     margin-right: 2%;
+} 
+
+   .comingsoonmovie {
+     width: 48%;
+     float: left;
+     margin-right: 2%;
+}       
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 64em) {
+ .movieposters {
+     width: 48%;
+     float: left;
+     margin-right: 2%;
+}
+
+ .comingsoonmovie {
+     width: 48%;
+     float: left;
+     margin-right: 2%;
+}  
+
+}
+
+
+
+
+
+
+
+
+
+/*MAP*/
 .location h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -255,6 +316,13 @@ iframe {
 
 
 
+
+
+
+
+
+
+
 /*PLAYING NOW PAGE*/
 .movies h2 {
      padding-top: 1em;
@@ -267,106 +335,48 @@ iframe {
      font-weight: 200;
 }
 
-
-
-/*MOVIE POSTER ONE*/
-.movieposterone img {
+.movieposter img {
 	height: auto;
 	width: 100%;
 	padding: 1em;
+	overflow: hidden;
 }
-.movieposterone h3 {
+.movieposter h3 {
 	padding-left: .8em;
 	margin: 0;
 }
-.movieposterone p {
+.movieposter p {
 	padding-left: 1em;
 	padding-right: 1em;
 }
 
+@media screen and (min-width: 30em) {
+   .movieposter {
+     width: 48%;
+     float: left;
+     margin-right: 2%;
+}     
 
 
-/*MOVIE POSTER TWO*/
-.moviepostertwo img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
-.moviepostertwo h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-.moviepostertwo p {
-	padding-left: 1em;
-	padding-right: 1em;
 }
 
 
 
-/*MOVIE POSTER THREE*/
-.movieposterthree img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
-.movieposterthree h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-.movieposterthree p {
-	padding-left: 1em;
-	padding-right: 1em;
-}
 
 
 
-/*MOVIE POSTER FOUR*/
-.movieposterfour img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
+
+
+@media screen and (min-width: 64em) {
+ .movieposter {
+     width: 31.3333%;
+     float: left;
+     margin-right: 2%;
 }
-.movieposterfour h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-.movieposterfour p {
-	padding-left: 1em;
-	padding-right: 1em;
+
 }
 
 
-
-/*MOVIE POSTER FIVE*/
-.movieposterfive img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
-.movieposterfive h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-.movieposterfive p {
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-
-/*MOVIE POSTER SIX*/
-.moviepostersix img {
-	height: auto;
-	width: 100%;
-	padding: 1em;
-}
-.moviepostersix h3 {
-	padding-left: .8em;
-	margin: 0;
-}
-.moviepostersix p {
-	padding-left: 1em;
-	padding-right: 1em;
-}
 
 
 
@@ -493,7 +503,8 @@ footer .copyright {
 footer .social-links {
 	list-style-type: none;
 	text-align: center;
-	margin: 1em;
+	padding-top: 1em;
+	margin: 0 auto;
 }
 
 footer .social-links li{
