@@ -491,7 +491,7 @@ iframe {
        float: left;
        margin-right: 2%;
 } 
-    .ticketprices {
+  /*  .ticketprices {
 	   width: 250px;
 	   left: 50%;
 	   
@@ -499,7 +499,7 @@ iframe {
 }
     .ticketprices img {
 		width: 100%;
-}
+}*/
 
 }
 
@@ -510,7 +510,9 @@ iframe {
 
 
 
-
+.clearfix {
+    clear: both;
+}
 
 
 /*FOOTER*/
