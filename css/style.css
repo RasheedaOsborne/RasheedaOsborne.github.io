@@ -240,10 +240,7 @@ header{
 	padding-left: .8em;
 	margin: 0;
 }
-.movieposters p {
-	padding-left: 1em;
-	padding-right: 1em;
-}
+
 
 /*COMING SOON SECTION*/
 .comingsoon h2 {
@@ -296,7 +293,7 @@ header{
 .location h2 {
      padding-top: 1em;
      padding-bottom: 1em;
-     /*font-family: 'Cookie', cursive*/;
+     
      padding-left: .5em;
      color: #e1b070;
      font-size: 1.5em;
@@ -312,6 +309,10 @@ iframe {
 
 
 /*PLAYING NOW PAGE*/
+.nowplaying {
+	background-color: #f2f2f2;
+
+}
 .movies h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -336,6 +337,7 @@ iframe {
 .movieposter p {
 	padding-left: 1em;
 	padding-right: 1em;
+
 }
 
 @media screen and (min-width: 30em) {
@@ -343,7 +345,11 @@ iframe {
      width: 48%;
      float: left;
      margin-right: 2%;
-}     
+}
+    .nowplaying {
+	background-color: #f2f2f2;
+	
+} 
 
 }
 
@@ -364,6 +370,10 @@ iframe {
 
 
 /*COMING SOON PAGE*/
+
+.comingpage {
+	background-color: #f2f2f2;
+}
 .headline h2 {
      padding-top: 1em;
      padding-bottom: 1em;
@@ -385,6 +395,11 @@ iframe {
     height: auto;
 	width: 100%;
 	padding: 1em;
+}
+
+.comingsoonposter p {
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 @media screen and (min-width: 30em) {
@@ -409,13 +424,17 @@ iframe {
 
 
 /*PRICES PAGE*/
+
+.pricespage {
+	background-color: #f2f2f2;
+}
 .prices h2 {
      padding-top: 1em;
      padding-bottom: 1em;
      font-family: 'Cookie', cursive;
      padding-left: .5em;
      color: #e1b070;
-     font-size: 2.5em;
+     font-size: 2em;
      margin: 0;
      font-weight: 200;
 }
@@ -428,24 +447,23 @@ iframe {
      font-family: 'Cookie', cursive;
      padding-left: .5em;
      color: #e1b070;
-     font-size: 2.5em;
+     font-size: 2em;
      margin: 0;
      font-weight: 200;
      
 }
 
-.giftcardprices h2 {
+.giftcardprices h3 {
      text-align: center;
      padding-left: .5em;
-     /*color: #e1b070;*/
-     font-size: 2em;
+     /*font-size: 2em;*/
      margin: 0;
      font-weight: 200;
 }
 
 .giftcardprices p {
 	text-align: center;
-	font-size: 1em;
+	/*font-size: 1em;*/
 	padding: 0;
 
 }
@@ -457,12 +475,10 @@ iframe {
 
 
 /*VALUE CARD SECTION*/
-.valuecardprices h2 {
+.valuecardprices h3 {
 
      text-align: center;
      padding-left: .5em;
-     /*color: #e1b070;*/
-     font-size: 2em;
      margin: 0;
      font-weight: 200;
 }
@@ -491,21 +507,23 @@ iframe {
        float: left;
        margin-right: 2%;
 } 
-  /*  .ticketprices {
-	   width: 250px;
-	   left: 50%;
-	   
-	   	   
+    .ticketprices {
+       width: 48%;
+       float: left;
+       margin-right: 2%;
+       
 }
-    .ticketprices img {
-		width: 100%;
-}*/
 
 }
 
 @media screen and (min-width: 64em) {
- 
-
+    .ticketprices {
+       width: 48%;
+       float: left;
+       margin-right: 2%;
+       
+}  
+   
 }
 
 
